@@ -1,0 +1,21 @@
+@media (max-width: 375px) { 
+    .container {
+        width: 90%;
+        padding: 5vh 0 1vh 0;
+    }
+
+    .container img {
+        width: 80px;
+    }
+
+    .allbtns button {
+        width: 90%;
+        height: 35px;
+        font-size: 14px;
+    }
+
+    .attribution {
+        font-size: 10px;
+        opacity: 100%;
+    }
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+    padding: 0;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    width: 370px;
+    padding: 5vh 0 3vh 0;
+    text-align: center;
+    border-radius: 10px;
+}
+.container div {
+    width: 100%;
+}
+.container img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+#user {
+    font-size: 22px;
+    margin: 5px 0;
+}
+
+#loc {
+    color: #c5f82a;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#desc {
+    color: #cecece;
+    margin: 25px 0;
+}
+
+.allbtns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.allbtns button {
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    width: 80%;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 5px #1f1f1f;
+    transition: 0.1s;
+}
+
+.allbtns button:hover {
+    background-color: #c5f82a;
+    color: #333333;
+}
+
+
+.attribution {
+    justify-self: flex-end;
+    font-size: 11px;
+    text-align: center;
+    color: #cecece;
+    font-weight: 600;
+    margin-top: 20px;
+    opacity: 10%;
+    transition: 0.2s;
+}   
+.attribution a {
+    color: #c5f82a; 
+}
+
+.attribution:hover {
+    opacity: 100%;
+}
